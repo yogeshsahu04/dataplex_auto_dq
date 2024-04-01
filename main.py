@@ -9,9 +9,15 @@ except ImportError:
 
 from google.cloud import dataplex_v1
 
-PROJECT = os.environ.get('PROJECT')
-LOCATION = os.environ.get('LOCATION')
-DATA_SCAN = os.environ.get('DATA_SCAN')
+#PROJECT = os.environ.get('PROJECT')
+#LOCATION = os.environ.get('LOCATION')
+#DATA_SCAN = os.environ.get('DATA_SCAN')
+
+PROJECT = "stoked-genius-391609"
+LOCATION = "US"
+DATA_SCAN = "data-quality-austin_bikeshare_bikeshare_trips"
+
+	
 
 
 def get_data_scan(project, location, data_scan):
